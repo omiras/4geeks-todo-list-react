@@ -46,9 +46,7 @@ const TodoList = () => {
       </div>
       <ul className="list-group">
         {list.map((t, index) => (
-          <Item key={index} id={index} onClickRemoteItem={handleRemoveItem} text={t}/>
-            
-          
+          <Item key={index} id={index} onClickRemoteItem={handleRemoveItem} text={t}/>    
         ))}
       </ul>
     </div>
