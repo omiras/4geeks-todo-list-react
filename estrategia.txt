@@ -1,0 +1,10 @@
+Componentes:
+
+- Item: 
+  - props: text
+  - X : onClick -> remove Item ->delegar el estado en una prop??
+- TodoList
+  - state: items iniciales. Array de strings.
+  - input: añadir nueva tarea
+    - onKeyUp enter -> añadir la nueva tarea
+  - lista: iterar todas las tareas del estado
